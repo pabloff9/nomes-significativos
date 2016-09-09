@@ -47,7 +47,7 @@ public class Cor {
             int nivelDeVerde = Integer.parseInt(porcaoDoVerde, 16);
 
             String porcaoDoAzul = hexadecimalRGB.substring(5);
-            int nivelDeAzul = Integer.parseInt(porcaoDoAzul);
+            int nivelDeAzul = Integer.parseInt(porcaoDoAzul, 16);
 
             return new Cor(nivelDeVermelho, nivelDeVerde, nivelDeAzul);
         }
